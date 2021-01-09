@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+button {
+    padding: 15px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    display: none;
+    margin: 0 auto;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #444;
+}
+
+button:active,
+button:focus {
+    outline: none;
+}
+
+#card-area > img {
+    position : absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
